@@ -1,3 +1,5 @@
+import LandingHeader from "@/components/Landing-header";
+
 export default function LandingLayout({ 
     children
  }: { 
@@ -5,6 +7,7 @@ export default function LandingLayout({
  }) {
     return(
         <main>
+            <LandingHeader />
             {children}
         </main>
     );
