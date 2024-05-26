@@ -30,6 +30,12 @@ const Sidebar = () => {
       icon: MessageSquare,
       color: "text-violet-600"
     },
+    {
+      label: "Completion",
+      href: "/completion",
+      icon: MessageSquare,
+      color: "text-red-600"
+    },
 
   ]
 

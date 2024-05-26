@@ -9,7 +9,7 @@ export default function Chat() {
   //const { completion, input, handleInputChange, handleSubmit, error } = useCompletion();
 
   return (
-    <div className="flex flex-col w-full max-w-3xl py-6 mx-auto stretch">
+    <div className="flex flex-col w-full max-w-4xl py-6 mx-auto stretch">
         <div className='overflow-scroll max-h-96'>
            {messages.map(m => (
             <div key={m.id} className="whitespace-pre-wrap">
